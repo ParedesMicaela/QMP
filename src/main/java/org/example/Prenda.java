@@ -23,11 +23,10 @@ public class Prenda {
     }
 
     private Color existeColor(String nombreColor) {
-        try {
+        if (nombreColor.matches("^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$")) {
             return Color.decode(nombreColor);
-        } catch (NumberFormatException e) {
+        } else {
             throw new IllegalArgumentException("Color no válido: " + nombreColor);
         }
     }
-
 }
