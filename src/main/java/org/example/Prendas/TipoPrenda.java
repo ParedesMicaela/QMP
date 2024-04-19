@@ -1,8 +1,11 @@
-package org.example;
-import org.example.Categoria;
+package org.example.Prendas;
 
 public class TipoPrenda{
     private Categoria categoria;
+
+    public TipoPrenda(Categoria categoria) {
+        this.categoria = categoria;
+    }
 
     public Categoria getCategoria(){return categoria;}
 }

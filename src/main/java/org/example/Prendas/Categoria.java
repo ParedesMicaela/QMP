@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Prendas;
 
 public enum Categoria {
     PARTE_SUPERIOR,
