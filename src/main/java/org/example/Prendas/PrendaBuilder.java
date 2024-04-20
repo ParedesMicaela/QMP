@@ -11,17 +11,17 @@ public class PrendaBuilder {
   private Trama trama;
 
   public PrendaBuilder conTipo (TipoPrenda tipo) {
-    this.tipo = Objects.requireNonNull(tipo, "El tipo no puede ser nulo");
+    this.tipo = tipo;
     return this;
   }
 
   public PrendaBuilder conMaterial(Material material) {
-    this.material = Objects.requireNonNull(material, "Material no puede ser nulo");
+    this.material = material;
     return this;
   }
 
   public PrendaBuilder conColorPrincipal(String colorPrincipal) {
-    this.colorPrincipal = Objects.requireNonNull(String.valueOf(existeColor(colorPrincipal)), "Color principal no puede ser nulo");
+    this.colorPrincipal = String.valueOf(existeColor(colorPrincipal));
     return this;
   }
 
