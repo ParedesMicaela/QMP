@@ -13,6 +13,8 @@ public class Usuario {
 
     public List<Alerta> verUltimasAlertas();
 
+    public onAlertOccurence(Sugerencia sugerencia);
+    
 }
 
 
