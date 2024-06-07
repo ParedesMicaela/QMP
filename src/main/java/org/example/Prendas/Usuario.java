@@ -11,6 +11,8 @@ public class Usuario {
 
     }
 
+    public List<Alerta> verUltimasAlertas();
+
 }
 
 
