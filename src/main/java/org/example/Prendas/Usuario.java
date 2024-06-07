@@ -13,7 +13,8 @@ public class Usuario {
 
     public List<Alerta> verUltimasAlertas();
 
-    public onAlertOccurence(Sugerencia sugerencia);
+    @On(event = "myEvent")
+    void onAlertOccurence(Sugerencia sugerencia);
     
 }
 
