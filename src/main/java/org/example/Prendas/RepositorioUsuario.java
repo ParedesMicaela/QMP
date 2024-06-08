@@ -25,6 +25,8 @@ public class RepositorioUsuario {
     // si devuelvo algo no void -> no es un evento
     // si el nombre del evento me dice exactamender que hacer -> no es evento.
 
+    //Como usuarie de QuéMePongo quiero que se actualice mi sugerencia diaria con las condiciones
+    //climáticas actualizadas cuando se genere algún alerta durante el día. No es un evento porque siempre hace lo mismo.
     
     // es el unico que conoce a todos los usuarios y el que tiene que geerar y mandar la noti
     public void generarSugerenciaDiariaParaTodos() {
