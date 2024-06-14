@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a0a0906-0968-4fcf-af45-cf8ff109ff69" name="Changes" comment="segunda iteracion">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Guardaropas/CategoriaGuardaropas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Guardaropas/Guardaropa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Usuarios/EstadoPropuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Usuarios/Propuestas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Usuarios/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Prendas/AccuWeatherAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Prendas/AdapterClima.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Prendas/Alerta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Prendas/GeneradorSugerencias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Prendas/RepositorioUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Prendas/Sugerencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Prendas/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +61,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USUARIO/Desktop/3-DISEÑO/tpi2-sistema-de-archivos-2024-ParedesMicaela",
+    "last_opened_file_path": "C:/Users/lrgin/Desktop/QMP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,29 +71,15 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="QMP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="QMP" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -105,10 +94,9 @@
       <workItem from="1712788791333" duration="632000" />
       <workItem from="1712886053891" duration="1166000" />
       <workItem from="1713483029030" duration="6454000" />
-      <workItem from="1713571282279" duration="3574000" />
-      <workItem from="1713619537388" duration="220000" />
-      <workItem from="1713624922098" duration="32000" />
-      <workItem from="1716495608501" duration="3365000" />
+      <workItem from="1713571282279" duration="227000" />
+      <workItem from="1717726928951" duration="1427000" />
+      <workItem from="1717762987204" duration="6394000" />
     </task>
     <task id="LOCAL-00001" summary="QMP primera iteracion">
       <option name="closed" value="true" />
@@ -126,15 +114,7 @@
       <option name="project" value="LOCAL" />
       <updated>1713493291960</updated>
     </task>
-    <task id="LOCAL-00003" summary="segunda iteracion">
-      <option name="closed" value="true" />
-      <created>1713571573481</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1713571573481</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
